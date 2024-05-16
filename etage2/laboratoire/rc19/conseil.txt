@@ -1,0 +1,27 @@
+>>> conseil terminal
+Avez-vous lu la spécification du Uglix Secure Vault à la bibliothèque ?
+
+>>> conseil terminal
+Si on résume la spec, on trouve que : 
+1. une graîne de 16 bits est générée, puis
+2. une clef de 128 bits (secrète) et un IV de 128 bits (connu) en sont déduits.
+Une attaque par "force brute" (en fait, recherche exhaustive) est donc possible.
+
+
+>>> conseil terminal
+La stratégie consiste à essayer toutes les graînes possibles, calculer la clef,
+calculer l'IV, vérifier si l'IV est le bon (le cas échéant la clef est bonne 
+aussi), puis déchiffrer et profiter.
+
+
+>>> conseil terminal
+On peut déchiffrer avec OpenSSL en connaissant la clef et l'IV en allant lire
+le bon mode d'emploi à la bibliothèque. 
+
+
+>>> conseil terminal
+Il n'y a que 65536 grâines possibles, donc ça prendra un temps infime.
+
+>>> conseil terminal
+16 bits, ça fait 2 "bytes", donc en python ça s'écrit ``bytes([a, b])'' avec
+0 <= a < 256 et 0 <= b < 256.

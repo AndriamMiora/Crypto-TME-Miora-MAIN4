@@ -1,0 +1,12 @@
+Conseils pour la résolution du challenge 
+Le panneau en liège montre un message chiffré par les deux clefs publiques.
+Ce serait sûrement utile de le déchiffrer.  Mais cette fois, aucune clef
+secrète n'est opportunément disponible.
+Ceci est cepdendant possible car les deux clefs publiques ont le même N.
+La formule magique est : ``CRT dans les exposants''.
+En clair, cherchez une relation de Bezout u*e1 + v*e2 == 1.
+Après, vous avez c1 == m**e1 mod N et c2 == m**e2 mod N.  Par conséquent,
+c1**u * c2**v == m**(u*e1 + v*e2) == m mod N.  Et boum.
+Rappel : m**(-42) == (m**42)**(-1) == (m**(-1))**42 mod N
+
+C'est tout !

@@ -1,0 +1,1 @@
+{"cardholder": "Kristin Baker", "card-number": "7599-4020-3157-8990", "bank-name": "Morris-Johnson", "currency": "EUR", "amount": 274}

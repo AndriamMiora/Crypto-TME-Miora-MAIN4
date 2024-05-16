@@ -1,0 +1,18 @@
+Conseil distributeur
+Il y a une commande ADMIN, qui demande un mot de passe.  Vous avez ce mot
+de passe, mais chiffré par trois clef publiques différentes.  Commencez
+par récupérer puis examiner les trois clefs publiques.  Qu'on-t-elle de
+spécial ?
+
+En utilisant le théorème des restes chinois (CRT), il est possible de
+calculer l'entier m**3 (PAS modulo n).  Partant de là, récupérer m consiste
+à calculer une racine cubique.  (m est l'encodage PKCS#1 v1.5 du mot de
+passe, donc il y a du charabia au début et le mot de passe à la fin).
+
+Calculer la racine cubique d'un nombre aussi grand (environ 2000 chiffres)
+ne peut pas se faire avec les fonctions usuelles qui travaillent sur des
+flottants avec seulement 64 bits de précision (soit ça va échouer, soit le
+résultat sera faux).  À la place, on peut utiliser la méthode de Newton,
+(cf. Wikipédia) pour le calcul des racines n-ièmes, en effectuant les
+opérations sur des entiers (donc en faisant des divisions euclidiennes
+tout le temps).

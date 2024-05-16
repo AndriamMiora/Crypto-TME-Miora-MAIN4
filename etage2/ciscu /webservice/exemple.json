@@ -1,0 +1,16 @@
+{
+  "transaction": {
+    "data": "{\"cardholder\": \"Nicholas King\", \"card-number\": \"5189-6247-9464-2982\", \"bank-name\": \"Franklin LLC\", \"currency\": \"EUR\", \"amount\": 726}",
+    "card": {
+      "number": "7378-7217-2661-8136",
+      "certificate": "-----BEGIN CERTIFICATE-----\nMIIBGzCBzgIUOn49mWyoQ5lsQdzfZDYFQKTlypowBQYDK2VwMBcxFTATBgNVBAMM\nDEZyYW5rbGluIExMQzAeFw0yNDA1MTQwNzU5MjZaFw0yNTA1MTQwNzU5MjZaMB4x\nHDAaBgNVBAMMEzczNzgtNzIxNy0yNjYxLTgxMzYwVjAQBgcqhkjOPQIBBgUrgQQA\nCgNCAASSfZqUCpBNsA2x8p8qoq2U/jWrMi9fXOl9XbGceNf75Jh+SAudKacG/Qrc\nc61GdHLZ3S4Ha9/BV++pv6flKoVWMAUGAytlcANBAJMbkJubm1SgLri2tApvnlAA\n7hgTkLKk1zGhcTW9ZlepxO73nPGecKZqkqD1B831y47m00a2RQ31AeZjGFgn9wE=\n-----END CERTIFICATE-----\n",
+      "bank": {
+        "name": "Franklin LLC",
+        "certificate": "-----BEGIN CERTIFICATE-----\nMIICIjCCAQqgAwIBAgIUWUKq2rWpozHI2lElialyNQkYzWcwDQYJKoZIhvcNAQEL\nBQAwETEPMA0GA1UEAwwGX19DQV9fMB4XDTI0MDUxNDA3NTkyNloXDTI1MDUxNDA3\nNTkyNlowFzEVMBMGA1UEAwwMRnJhbmtsaW4gTExDMCowBQYDK2VwAyEAMLo2chwO\n//nBhtsq8+Z0uIY87fsPb7I9+EG+7aonBUujZjBkMB0GA1UdDgQWBBRu4VIYW3RT\nsrDs2xUBmlCuA6xlcDAfBgNVHSMEGDAWgBSOCD6NvSeus/JJ6p5syz1F69CSjjAS\nBgNVHRMBAf8ECDAGAQH/AgEAMA4GA1UdDwEB/wQEAwIBhjANBgkqhkiG9w0BAQsF\nAAOCAQEABGQdDnPJJv3mf1S0DAaWX2GWwFi/pWYqcdcCy0v2xeuT87AIpRWvgBjz\nkgPrrxWE/6CeBF0DnQxxIHNt8YGP86b3EmNUCjZzsla2Mcc9o13ZoyzCu1Es8FbT\nO8VYQ3TU1c00zZH278g3FYJJH6YFdrju5e2uNmJM4ctM5kCKUwDxOdyQSSDDrL08\nRo3WIqW7/rsoIWdX1oguvVDPy4e0GkLxaqYebMPLO28ifV8hqBLj5efcQvCnFh3a\n+3gsMTbJm6T5iqhZ+F8N5JXA+1l+lfo+mKY138xkNiLrk5bl1kHj1ejdcxl5LXqj\nXWa2a7S/dwKF88wmbj+JX1hKm3AaAg==\n-----END CERTIFICATE-----\n"
+      }
+    },
+    "signature": "3045022028975c129addfc95b8baa3ca6fc9ed130d0af4194256057312fa26ffeac25df2022100be200f2466b6bce26578be3e2fe3061b5fdd0791edf8af2576c11305ac067bf5",
+    "valid": false,
+    "reason": "Le num\u00e9ro de la carte dans le certificat de la carte ne correspond pas aux donn\u00e9es de la transaction."
+  }
+}

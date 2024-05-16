@@ -1,6 +1,6 @@
 # Récupération des Flags - TME
 
-Ce répertoire Git contient les codes et les instructions nécessaires pour récupérer les flags du TME .
+Ce répertoire Git contient les codes et les instructions nécessaires pour récupérer les 24 flags du TME .
 
 ## Contenu
 
